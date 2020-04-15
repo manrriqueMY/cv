@@ -1,0 +1,127 @@
+{
+	"skill_personal":[
+		{"skill":"Responsable"},
+		{"skill":"Puntual"},
+		{"skill":"Autodidacta"},
+		{"skill":"Compromiso"},
+		{"skill":"Profecional"}
+	],
+	"skill_know":[
+		{
+			"skill":"Java",
+			"version":"^8",
+			"image-1":"images/thumbs/01.png",
+			"image-2":"images/fulls/01.png",
+			"framework":
+			[
+				{"sdk":"Spring","version":"^4.x"},
+				{"sdk":"Hibernate","version":"^3.x"},
+				{"sdk":"Java FX","version":"^2.x"},
+				{"sdk":"JFrame","version":""}
+			]
+		},{
+			"skill":"PHP", 
+			"version":"^5.x | ^7.x",
+			"image-1":"images/thumbs/02.png",
+			"image-2":"images/fulls/02.png",
+			"framework":
+			[
+				{"sdk":"Laravel","version":"^5.x"},
+				{"sdk":"Slim","version":"^1.x"},
+				{"sdk":"WordPress","version":""},
+				{"sdk":"Prestashop","version":""}
+			]
+		},{
+			"skill":"JavaScript", 
+			"version":"ES5 | ES6",
+			"image-1":"images/thumbs/03.png",
+			"image-2":"images/fulls/03.png",
+			"framework":
+			[
+				{"sdk":"React JS","version":"^14.x"},
+				{"sdk":"Express JS","version":"^4.x"},
+				{"sdk":"VueJS","version":"^2.x"},
+				{"sdk":"JQuery","version":"^1.x"}
+			]
+		},{
+			"skill":"Python",
+			"version":"^2.x | ^3.x",
+			"image-1":"images/thumbs/04.png",
+			"image-2":"images/fulls/04.png",
+			"framework":
+			[
+				{"sdk":"Flask","version":"^1.x"},
+				{"sdk":"TKinter","version":""},
+				{"sdk":"Matplotlib","version":""}
+			]
+		},{
+			"skill":"C#",
+			"version":"NET ^4.0",			
+			"image-1":"images/thumbs/05.png",
+			"image-2":"images/fulls/05.png",
+			"framework":
+			[
+				{"sdk":"ASP.NET","version":"^4.x"},
+				{"sdk":"WCF","version":""},
+				{"sdk":"Entity framework","version":"^5.x"}
+			]
+		},{"skill":"Base de Datos",
+			"version":"",
+			"image-1":"images/thumbs/06.png",
+			"image-2":"images/fulls/06.png",
+			"framework":
+			[
+				{"sdk":"Mysql","version":"^5.x"},
+				{"sdk":"MongoDB","version":"^3.x"},
+				{"sdk":"Oracle","version":"^11.x g"},
+				{"sdk":"MS SQL Server","version":"^2008"}
+			]
+		}
+	],
+	"skill_worked":[
+		{"database":[{"name":"MySQL","version":"5.7"},{"name":"Oracle","version":"11g"}],
+			"backend":"Java","framework":"Spring","integracion":"Hibernate",
+			"frontend":[{"name":"JSP","version":""},{"name":"JQuery","version":"1.8"}],
+			"style":[{"name":"Bootstrap","version":"3.5"},{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.7"}],
+			"backend":"Java","framework":"JavaFX","integracion":"Hibernate",
+			"frontend":[{"name":"FXML","version":""}],
+			"style":[{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.7"}],
+			"backend":"PHP","framework":"","integracion":"Mysqli",
+			"frontend":[{"name":"HTML","version":"5"},{"name":"JQuery","version":"1.8"}],
+			"style":[{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.x"}],
+			"backend":"PHP","framework":"Laravel 5.7","integracion":"Eloquent",
+			"frontend":[{"name":"ReactJS","version":"14.x"},{"name":"Blade","version":""},{"name":"JQuery","version":"3.3"}],
+			"style":[{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.7"},{"name":"SQL Server","version":"2015"}],
+			"backend":"C#","framework":"ASP.NET MVC","integracion":"Entity Framework",
+			"frontend":[{"name":"Razor","version":""},{"name":"JQuery","version":"3.3"}],
+			"style":[{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.7"},{"name":"MongoDB","version":"3.x"}],
+			"backend":"JavaScript","framework":"Express JS","integracion":"Mongoose",
+			"frontend":[{"name":"ReactJS","version":"14.x"},{"name":"JQuery","version":"3.3"}],
+			"style":[{"name":"Materialize","version":"1"},{"name":"Bootstrap","version":"4.5"},{"name":"CSS","version":"3"}]},
+		{"database":[{"name":"MySQL","version":"5.7"},{"name":"SQL Server","version":"2017"}],
+			"backend":"C#","framework":"WCF","integracion":"Entity Framework",
+			"frontend":[{"name":"XML","version":"1.x"},{"name":"WSDL","version":""}],
+			"style":[]},
+		{"database":[{"name":"MySQL","version":"5.7"}],
+			"backend":"Python","framework":"Flask","integracion":"SQL Alchemy",
+			"frontend":[{"name":"JSON","version":""}],
+			"style":[]},
+		{"database":[{"name":"Excel","version":"2015"}],
+			"backend":"Python","framework":"Matplotlib","integracion":"",
+			"frontend":[{"name":"TKinter","version":""}],
+			"style":[]},
+		{"database":[{"name":"MySQL","version":"5.7"}],
+			"backend":"PHP","framework":"Slim 2.x","integracion":"PDO",
+			"frontend":[{"name":"JSON","version":""}],
+			"style":[]},
+		{"database":[{"name":"MySQL","version":"5.7"}],
+			"backend":"JAVA","framework":"","integracion":"Hibernate",
+			"frontend":[{"name":"JFrame","version":""}],
+			"style":[]}
+	]
+}
